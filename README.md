@@ -1,2 +1,2 @@
 # Python-Deep-Learning
-Learning deep learning in Python with TensorFlow
+Exploring deep learning in Python with TensorFlow

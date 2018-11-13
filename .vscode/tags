@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Activation	../Reinforcement-Learning/q-learning.py	/^from keras.layers import Dense, Activation, Flatten$/;"	kind:namespace	line:5
+Adam	../Reinforcement-Learning/q-learning.py	/^from keras.optimizers import Adam$/;"	kind:namespace	line:6
+BernoulliArm	../Reinforcement-Learning/epsilon-greedy.py	/^class BernoulliArm():$/;"	kind:class	line:35
+DQNAgent	../Reinforcement-Learning/q-learning.py	/^from rl.agents.dqn import DQNAgent$/;"	kind:namespace	line:8
+Dense	../Reinforcement-Learning/q-learning.py	/^from keras.layers import Dense, Activation, Flatten$/;"	kind:namespace	line:5
+ENV_NAME	../Reinforcement-Learning/q-learning.py	/^ENV_NAME = 'CartPole-v0'$/;"	kind:variable	line:12
+EpsGreedyQPolicy	../Reinforcement-Learning/q-learning.py	/^from rl.policy import EpsGreedyQPolicy$/;"	kind:namespace	line:9
+EpsilonGreedy	../Reinforcement-Learning/epsilon-greedy.py	/^class EpsilonGreedy():$/;"	kind:class	line:3
+Flatten	../Reinforcement-Learning/q-learning.py	/^from keras.layers import Dense, Activation, Flatten$/;"	kind:namespace	line:5
+Sequential	../Reinforcement-Learning/q-learning.py	/^from keras.models import Sequential$/;"	kind:namespace	line:4
+SequentialMemory	../Reinforcement-Learning/q-learning.py	/^from rl.memory import SequentialMemory$/;"	kind:namespace	line:10
+__init__	../Reinforcement-Learning/epsilon-greedy.py	/^    def __init__(self, epsilon, counts, values):$/;"	kind:member	line:4
+__init__	../Reinforcement-Learning/epsilon-greedy.py	/^    def __init__(self, p):$/;"	kind:member	line:36
+algo	../Reinforcement-Learning/epsilon-greedy.py	/^    algo = EpsilonGreedy(epsilon, [], [])$/;"	kind:variable	line:89
+arms	../Reinforcement-Learning/epsilon-greedy.py	/^arms = list(map(lambda mu: BernoulliArm(mu), means))$/;"	kind:variable	line:83
+class_names	../Basic-Classification/mnist-fashion.py	/^class_names = ['T-shirt\/top', 'Trouser', 'Pullover', 'Dress', 'Coat', $/;"	kind:variable	line:12
+dqn	../Reinforcement-Learning/q-learning.py	/^dqn = DQNAgent(model=model, nb_actions=nb_actions, memory=memory, nb_steps_warmup=10,$/;"	kind:variable	line:30
+draw	../Reinforcement-Learning/epsilon-greedy.py	/^    def draw(self):$/;"	kind:member	line:39
+env	../Reinforcement-Learning/q-learning.py	/^env = gym.make(ENV_NAME)$/;"	kind:variable	line:15
+epsilon-greedy.py	../Reinforcement-Learning/epsilon-greedy.py	1;"	kind:file	line:1
+fashion_mnist	../Basic-Classification/mnist-fashion.py	/^fashion_mnist = keras.datasets.fashion_mnist$/;"	kind:variable	line:7
+gym	../Reinforcement-Learning/q-learning.py	/^import gym$/;"	kind:namespace	line:2
+ind_max	../Reinforcement-Learning/epsilon-greedy.py	/^    def ind_max(self, x):$/;"	kind:member	line:15
+initialize	../Reinforcement-Learning/epsilon-greedy.py	/^    def initialize(self, n_arms):$/;"	kind:member	line:10
+keras	../Basic-Classification/mnist-fashion.py	/^from tensorflow import keras$/;"	kind:namespace	line:2
+loss	../Basic-Classification/mnist-fashion.py	/^              loss = 'sparse_categorical_crossentropy',$/;"	kind:variable	line:30
+matplotlib	../Basic-Classification/mnist-fashion.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+means	../Reinforcement-Learning/epsilon-greedy.py	/^means = [0.1, 0.1, 0.1, 0.1, 0.9]$/;"	kind:variable	line:80
+memory	../Reinforcement-Learning/q-learning.py	/^memory = SequentialMemory(limit=50000, window_length=1)$/;"	kind:variable	line:29
+metrics	../Basic-Classification/mnist-fashion.py	/^              metrics=['accuracy'])$/;"	kind:variable	line:31
+mnist-fashion.py	../Basic-Classification/mnist-fashion.py	1;"	kind:file	line:1
+model	../Basic-Classification/mnist-fashion.py	/^model = keras.Sequential([$/;"	kind:variable	line:21
+model	../Reinforcement-Learning/q-learning.py	/^model = Sequential()$/;"	kind:variable	line:20
+n_arms	../Reinforcement-Learning/epsilon-greedy.py	/^n_arms = len(means)$/;"	kind:variable	line:81
+nb_actions	../Reinforcement-Learning/q-learning.py	/^nb_actions = env.action_space.n$/;"	kind:variable	line:18
+np	../Reinforcement-Learning/q-learning.py	/^import numpy as np$/;"	kind:namespace	line:1
+numpy	../Basic-Classification/mnist-fashion.py	/^import numpy as numpy$/;"	kind:namespace	line:4
+plt	../Basic-Classification/mnist-fashion.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+policy	../Reinforcement-Learning/q-learning.py	/^policy = EpsGreedyQPolicy()$/;"	kind:variable	line:28
+q-learning.py	../Reinforcement-Learning/q-learning.py	1;"	kind:file	line:1
+random	../Reinforcement-Learning/epsilon-greedy.py	/^import random$/;"	kind:namespace	line:1
+results	../Reinforcement-Learning/epsilon-greedy.py	/^    results = test_algorithm(algo, arms, 5000, 250)$/;"	kind:variable	line:91
+select_arm	../Reinforcement-Learning/epsilon-greedy.py	/^    def select_arm(self):$/;"	kind:member	line:19
+testX	../Basic-Classification/mnist-fashion.py	/^testX = testX\/255.0$/;"	kind:variable	line:19
+test_algorithm	../Reinforcement-Learning/epsilon-greedy.py	/^def test_algorithm(algo, arms, num_sims, horizon):$/;"	kind:function	line:46
+tf	../Basic-Classification/mnist-fashion.py	/^import tensorflow as tf$/;"	kind:namespace	line:1
+tfTest.py	../Style-Transfer/tfTest.py	1;"	kind:file	line:1
+trainX	../Basic-Classification/mnist-fashion.py	/^trainX = trainX\/255.0$/;"	kind:variable	line:18
+update	../Reinforcement-Learning/epsilon-greedy.py	/^    def update(self, chosen_arm, reward):$/;"	kind:member	line:25
